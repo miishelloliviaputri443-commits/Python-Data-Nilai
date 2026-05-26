@@ -3,6 +3,7 @@ from statistics import mean
 nilai = []
 
 def display_menu():
+    print("\n= Data Nilai Siswa =")
     print("\nMenu:")
     print("1. Tambah Data Nilai")
     print("2. Lihat Data Nilai")
