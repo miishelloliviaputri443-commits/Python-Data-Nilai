@@ -14,14 +14,14 @@ def display_menu():
 def tambah_data():
         nilai_baru = int(input("Masukkan nilai anda: "))
         nilai.append(nilai_baru)
-        print("Nilaimu sekarang adalah:", nilai_baru)
+        print("Nilaimu sekarang:", nilai_baru)
         return
 
 def lihat_data():
     if nilai:
         print("\nLihat Data Nilai:")
         for nilai_item in nilai:
-            print(f"Nilai anda adalah, {nilai_item}")
+            print(f"Nilai anda: {nilai_item}")
     else:
         print("\nBelum ada data nilai.")
     
