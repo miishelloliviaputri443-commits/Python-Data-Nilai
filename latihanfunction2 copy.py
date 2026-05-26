@@ -3,7 +3,7 @@ from statistics import mean
 nilai = []
 
 def display_menu():
-    print("\n= Data Nilai Siswa =")
+    print("\n =Data Nilai Siswa= ")
     print("\nMenu:")
     print("1. Tambah Data Nilai")
     print("2. Lihat Data Nilai")
@@ -55,7 +55,7 @@ def main():
     while True:
         display_menu()
         print("\n =Selamat datang di Data Nilai= ")
-        choice = input("Pilih menu (1-5): ")
+        choice = input("Silakan Pilih menu (1-5): ")
         if choice == '1':
             tambah_data()
         elif choice == '2':
